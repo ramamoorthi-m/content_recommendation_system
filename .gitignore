@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data files (DO NOT COMMIT)
+data/
+*.csv
+*.dat
+*.pkl
+*.db
+
+# Models
+models/
+*.pkl
+
+# Environment
+.env
+venv/
+anaconda_projects/
+
+# OS
+.DS_Store
+Thumbs.db
