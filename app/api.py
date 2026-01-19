@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 from src.recommender import HybridRecommender
 
-app = FastAPI(title="Content Recommendation System API (Hybrid Movie Recommender)")
+app = FastAPI(title="Content Recommendation System API ")
 
 # Load model once at startup
 recommender = HybridRecommender()

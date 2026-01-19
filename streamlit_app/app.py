@@ -5,7 +5,7 @@ API_URL = "http://127.0.0.1:8000/recommend"
 
 st.set_page_config(page_title="Hybrid Movie Recommender", layout="centered")
 
-st.title("🎬 Content Recommendation System (Hybrid Movie Recommendation System)")
+st.title("🎬 Content Recommendation System")
 
 user_id = st.number_input("User ID", min_value=0, step=1)
 k = st.slider("Number of recommendations", 5, 20, 10)
