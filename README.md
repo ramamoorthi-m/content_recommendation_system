@@ -4,6 +4,20 @@ An end-to-end **Content Recommendation System** built using collaborative filter
 The project includes **model training, evaluation, an API backend, and a Streamlit frontend**.
 
 ---
+## Demo
+
+### FastAPI Backend (Swagger UI)
+![FastAPI Swagger](screenshots/fastapi_swagger.png)
+REST API exposing the hybrid recommendation model with health check and recommendation endpoint.
+
+### Streamlit Interface – Inputs
+![Streamlit Input](screenshots/streamlit_input.png)
+Interactive UI to control user ID, number of recommendations, and hybrid weight (ALS vs content).
+
+### Streamlit Interface – Recommendations
+![Streamlit Output](screenshots/streamlit_output.png)
+Top-N personalized recommendations generated in real time using the hybrid model.
+
 
 ## 🚀 Features
 
